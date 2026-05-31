@@ -6,6 +6,7 @@ public class CollegeAdmission
     public static void main (String[] args)
     {
         Scanner keyboard = new Scanner(System.in);
+        // System mysystem = new System()
         int math;
 
         out.println("Welcome to the UT Aust in College Admissions Interface!");

@@ -14,9 +14,9 @@ public class BMICategories
         System.out.print("BMI category: ");
 
         if ( bmi < 15.0)
-        {
+        
             System.out.println("Very severely underweight");
-        }
+        
         else if (bmi <= 16.0)
        {
             System.out.println("Severely underweight ");

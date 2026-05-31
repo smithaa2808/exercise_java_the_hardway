@@ -12,6 +12,9 @@ public class ClubBouncer
         String gender = "F";
 
         if (onGuestList || age >= 21 || (gender.equals("F")) && attractiveness >= 8) 
+        //  false || true || true || false
+        //  true || true
+        //  true
         {
             System.out.println("You are allowed to enter the club.");
         }
