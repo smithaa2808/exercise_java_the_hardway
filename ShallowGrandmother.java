@@ -21,6 +21,7 @@ public class ShallowGrandmother
 
         allowed = ( age > 25 && age < 40 && ( income > 50000 || attractiveness >= 8.5 ));
         //  What's the use of that symbol ||
+        //  The symbol represents "OR"
 
         System.out.println( "You are allowed to date my grandchild: " + allowed );
 
