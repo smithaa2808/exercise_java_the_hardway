@@ -20,7 +20,11 @@ public class ShallowGrandmother
         attractiveness = keyboard.nextDouble();
 
         allowed = ( age > 25 && age < 40 && ( income > 50000 || attractiveness >= 8.5 ));
+        //  What's the use of that symbol ||
 
         System.out.println( "You are allowed to date my grandchild: " + allowed );
+
+        keyboard.close(); 
+        //  type scanner object keyboard is closed
     }
 }
