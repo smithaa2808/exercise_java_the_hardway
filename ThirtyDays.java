@@ -9,21 +9,22 @@ import java.util.Scanner;
          int month, days;
          String monthName;
  
-         System.out.print( "Which month? (112) " );
+         System.out.print( "Which month? (1-12) " );
          month = keyboard.nextInt();
- 
+         // switch is a keyword of Java
+         // What will happen if there is no switch keyword?
          switch(month)
          {
              case  1: monthName = "January";
                       break;
              case  2: monthName = "February";
-                      break;
+                    break;
              case  3: monthName = "March";
-                      break;
+                    break;
              case  4: monthName = "April";
-                      break;
+                    break;
              case  5: monthName = "May";
-                      break;
+                    break;
              case  6: monthName = "June";
                       break;
              case  7: monthName = "July";
@@ -52,11 +53,14 @@ import java.util.Scanner;
              case  9:
              case  4:
              case  6:
-             case 11: days = 30;
-                      break;
-             case  2: days = 28;
-                      break;
-             default: days = 31;
+             case 11: 
+                days = 30;
+                break;
+             case  2: 
+                days = 28;
+                break;
+             default: 
+                days = 31;
          }
  
          System.out.println( days + " days hath " + monthName );

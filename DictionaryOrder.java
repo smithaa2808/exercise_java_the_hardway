@@ -7,10 +7,11 @@ import java.util.Scanner;
         Scanner keyboard = new Scanner(System.in);
 
         String name;
-
+        // if keyword will follow a conditions
+        // conditions either True / False
         System.out.print( "Give me the name of a madeup programming language:");
         name = keyboard.nextLine();
-
+        // System.out.println("c++".compareTo("python"));
         if ( name.compareTo("c++") < 0 )
             System.out.println( name + " comes BEFORE c++" );
         if ( name.compareTo("c++") == 0 )
