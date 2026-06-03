@@ -40,7 +40,7 @@ public class RandomNumbers
          System.out.println( "a is " + a );
  
          x = Math.random();
-        //  System.out.println(x);
+         System.out.println(x);
          a = 0 + (int)(x*10);
          b = 1 + (int)(x*10);
          c = 5 + (int)(x*10);
@@ -50,6 +50,7 @@ public class RandomNumbers
          System.out.println( "c is " + c );
      }
  } {
-  
+//   When you multiply math.random with any number the range
+// lies btw the 0 and that number
 }
 }
