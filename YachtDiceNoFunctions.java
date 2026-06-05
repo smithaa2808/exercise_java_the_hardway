@@ -52,6 +52,7 @@ public class YachtDiceNoFunctions
 
             System.out.println("+ +");
             if ( roll2 == 1 )
+                
             {
                 System.out.println("|   |");
                 System.out.println("| o |");
