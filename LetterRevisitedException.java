@@ -1,14 +1,25 @@
 import java.io.FileWriter;
 import java.io.PrintWriter;
- 
-public class LetterRevisited
+import java.io.IOException;
+
+public class LetterRevisitedException
 {
-    public static void main( String[] args ) throws Exception
+    public static void main( String[] args )
     {
-        PrintWriter fileout;   // PrintWriter is a class and fileout is a variable
-        fileout = new PrintWriter( new FileWriter("letter.txt") );
-        //  new FileWriter creates FileWriter object 
-        //  new PrintWriter creates PrintWriter object
+        PrintWriter fileout;
+
+        try
+        {
+            fileout = new PrintWriter( new FileWriter("letter.txt") );
+        }
+        catch ( IOException err )
+        {
+            System.out.println("Sorry, I can't write to the file 'letter.txt'.");
+            System.out.println("Maybe the file exists and is readonly?");
+            fileout = null;
+            System.exit(1);
+        }
+
         fileout.println( "+ +" );
         fileout.println( "|                                                    #### |" );
         fileout.println( "|                                                    #### |" );
