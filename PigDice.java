@@ -38,7 +38,7 @@ public class PigDice
             total1 += turnTotal;
             System.out.println( "\tYou end the round with " + total1 + " points." );
 
-            if ( total1 < 100 )
+            if ( total1 < 10 )
             {
                 turnTotal = 0;
                 System.out.println( "Computer has " + total2 + " points." );
@@ -56,18 +56,19 @@ public class PigDice
                     {
                         turnTotal += roll;
                         System.out.println( "\tComputer has " + turnTotal + " points so far this round." );
-                        if ( turnTotal < 20 )
+                        if ( turnTotal < 5 )
                         {
                             System.out.println( "\tComputer chooses to roll again." );
                         }
                     }
-                } while ( roll != 1 && turnTotal < 20 );
+                } while ( roll != 1 && turnTotal < 5 );
 
                 total2 += turnTotal;
                 System.out.println( "\tComputer ends the round with " + total2 + " points." );
             }
 
-        } while ( total1 < 100 && total2 < 100 );
+        } while ( total1 < 10 && total2 < 10 );
+        // reduced to 10 for lesser outputs
 
         if ( total1 > total2 )
         {

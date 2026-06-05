@@ -5,7 +5,7 @@ import java.util.Scanner;
      public static void main( String[] args )
      {
          Scanner keyboard = new Scanner(System.in);
- 
+        // this is creating Scanner Object
          String coin, again;
          int flip, streak = 0; // Starting value 0
  

@@ -1,4 +1,4 @@
-public class YachtDice
+    public class YachtDice 
  {
      public static void main( String[] args )
      {
