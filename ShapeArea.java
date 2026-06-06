@@ -27,7 +27,7 @@ public class ShapeArea
                 int b = keyboard.nextInt();
                 System.out.print("Height: ");
                 int h = keyboard.nextInt();
-                area = computeTriangleArea(b, h); // Calling the function 
+                area = computeTriangleArea(10, 12); // Calling the function 
                 System.out.println("The area is " + area);
             }
             else if ( choice == 2 )

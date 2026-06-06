@@ -8,14 +8,15 @@ public class ThirtyDaysFunctions
         System.out.print( "Which month? (1-12) " );
         int month = kb.nextInt();
 
-        System.out.println( monthDays(month) + " days hath " + monthName(month) );
+        System.out.println( monthDays(month) + " days hath " + monthName(0) );
 
     }
 
         public static String monthName( int month ) // monthName will  be function and month will be parameter
     {
-        String monthName = "error";  // why we are initalizing it into to error
-
+        String monthName = "anythings";  // why we are initalizing it into to error
+        // if I remove "error / anything" then function will error
+        // monthname can be anything, not just "Error"
         if ( month == 1 )
             monthName = "January";
         else if ( month == 2 )
