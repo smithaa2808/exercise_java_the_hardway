@@ -1,0 +1,40 @@
+5
+
+0
+Outside Cave
+You are standing outside a dark cave.
+A cold wind blows from the north.
+%%
+north:1
+%%
+1
+Cave Entrance
+You are at the entrance of the cave.
+The tunnel continues deeper.
+%%
+south:0
+east:2
+west:3
+%%
+2
+Underground Lake
+A large underground lake blocks your path.
+The water looks very deep.
+%%
+west:1
+north:4
+%%
+3
+Old Storage Room
+Dusty crates and broken tools are scattered around.
+%%
+east:1
+%%
+4
+Treasure Chamber
+You have found the treasure chamber!
+Gold and jewels sparkle everywhere.
+%%
+south:2
+quit:-1
+%%

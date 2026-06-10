@@ -5,7 +5,7 @@ public class LowestTemperature
 {
     public static void main(String[] args) throws Exception
     {
-        double[] temps = arrayFromUrl("http://learnjavathehardway.org/txt/avgdailytempsatx.txt");
+        double[] temps = arrayFromUrl("https://learnjavathehardway.org/txt/avg-daily-temps-atx.txt");
 
         System.out.println( temps.length + " temperatures in database.");
 
